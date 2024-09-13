@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Card {
+  --orange: hsl(25, 97%, 53%);
+
+  --light-grey: hsl(217, 12%, 63%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+
+  display: flex;
+  align-items: center;
+
+  min-height: 30rem;
+  width: 27rem;
+  padding: 3rem;
+
+  font-size: 0.9375rem;
+  font-family: 'Overpass', sans-serif;
+  background: linear-gradient(#222933,#171e28 );
+  border-radius: 30px;
+}
